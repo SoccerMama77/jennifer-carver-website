@@ -1,0 +1,296 @@
+/****** BASE STYLES ******/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#profile, #skills, #testimonial, #contact {
+    height: 600px;
+}
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+.two-thirds-width {
+    width: 800px;
+    float: right;
+}
+
+/****** HEADER ******/
+
+header {
+    height: 600px;
+    background: url('../img/hero_image.png');
+    background-size: cover;
+    background-position: bottom;
+}
+header h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    color: #6f4c6d;
+    padding-top: 10px;
+}
+header h2 {
+    width: 800px;
+    clear: both;
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    font-size: 30px;
+    line-height: 30px;
+    color: #6f4c6d;
+    padding: 400px 0px 0px 100px;
+}
+nav {
+    float: right;
+    padding: 50px 40px 30px 30px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    padding-left: 40px;
+}
+
+/****** PROFILE ******/
+
+#profile .full-width {
+    padding: 30px 0px 20px 0px;
+}
+
+#profile h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 36px;
+    font-color: 000000;
+    padding-top: 20px;
+}
+#profile p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #7f7f7f;
+    line-height: 30px;
+    padding: 20px 50px 0px 0px;
+    text-align: justify;
+}
+/****** SKILLS ******/
+
+#skills {
+    background-color: #6f4c6d;
+    text-align: center;
+}
+
+#skills .full-width {
+    padding: 115px 0;
+}
+
+#skills img {
+    padding-bottom: 30px;
+}
+
+#skills h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 24px;
+    width: 190px;
+    margin: 0 auto;
+}
+
+#skills p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    padding: 0 35px;
+}
+/****** TESTIMONIAL ******/
+
+#testimonial {
+    background-color: #ffffff;
+}
+#testimonial .full-width {
+    padding: 115px 0;
+}
+#testimonial img {
+    padding-left: 75px;
+}
+#testimonial p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 75px;
+}
+/****** CONTACT ******/
+
+#contact {
+    background-color: #4c6e6f;
+}
+
+#contact .full-width {
+    padding: 0px 0px 70px 0px;
+}
+#contact .third-width {
+    float: left;
+}
+#contact-img {
+    padding-top: 125px;
+}
+#contact .third-width p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #ffffff;
+    width: 190px;
+    float: right;
+    padding-right: 10px;
+    padding-top: 125px;
+}
+#contact .third-width h2 {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+    color: #ffffff;
+    width: 200px;
+    clear: both;
+}
+#contact .third-width ul {
+    list-style: none;
+    padding-top: 10px;
+}
+#contact .third-width ul li {
+     display: inline-block;
+     float: inherit;
+}
+#contact .half-width {
+    float: right;
+}
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:antialiased;
+    -o-font-smoothing:antialiased;
+    font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+}
+
+.container {
+    max-width:550px;
+    width:100%;
+    margin:0 auto;
+    position:relative;
+}
+
+#contactme input[type="text"], #contactme input[type="email"], #contactme input[type="tel"], #contactme textarea, #contactme button[type="submit"] { font:15px "Open Sans Condensed", sans-serif;}
+
+#contact .half-width {
+    background:#4c6e6f;
+}
+
+#contact .half-width h3 {
+    font-family: font-family: 'Roboto Slab', serif;
+    color: #ffffff;
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 50px 0px 50px 0px;
+}
+
+#contact .half-width h4 {
+    margin:5px 0 15px;
+    display:block;
+    font-size:13px;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 8px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contactme input[type="text"], #contactme input[type="email"], #contactme input[type="tel"], #contactme textarea {
+    width:100%;
+    border:1px solid #CCC;
+    background:#ffffff;
+    margin:0 0 5px;
+    padding:10px;
+}
+
+#contactme input[type="text"]:hover, #contactme input[type="email"]:hover, #contactme input[type="tel"]:hover, #contactme textarea:hover {
+    -webkit-transition:border-color 0.3s ease-in-out;
+    -moz-transition:border-color 0.3s ease-in-out;
+    transition:border-color 0.3s ease-in-out;
+    border:1px solid #AAA;
+}
+
+#contactme textarea {
+    height:150px;
+    max-width:100%;
+  resize:none;
+}
+
+#contactme button[type="submit"] {
+    cursor:pointer;
+    width:100%;
+    border:1px solid #CCC;
+    background:#ffffff;
+    color:#4c6e6f;
+  font-weight: bold;
+    margin:0 0 5px;
+    padding:10px;
+    font-size:15px;
+}
+
+#contactme button[type="submit"]:hover {
+    background:#ccc;
+    -webkit-transition:background 0.3s ease-in-out;
+    -moz-transition:background 0.3s ease-in-out;
+    transition:background-color 0.3s ease-in-out;
+}
+
+#contactme button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contactme input:focus, #contact textarea:focus {
+    outline:0;
+    border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#4c6e6f;
+}
+:-moz-placeholder {
+ color:#4c6e6f;
+}
+::-moz-placeholder {
+ color:#4c6e6f;
+}
+:-ms-input-placeholder {
+ color:#4c6e6f;
+}
+
+
+
+
